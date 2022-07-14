@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="@color/darkyellow">
+
+        <RelativeLayout
+            android:id="@+id/arrow_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/arrow_back" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text=" Profile Overview "
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black1"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+
+                android:id="@+id/rl_img"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_img"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/profile" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="40dp"
+                        android:src="@drawable/yellow_circle" />
+
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="12dp"
+                        android:layout_marginLeft="45dp"
+                        android:layout_marginTop="43dp"
+                        android:src="@drawable/icon_write" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <LinearLayout
+
+                android:id="@+id/rl_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/rl_img"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp">
+                <TextView
+                    android:id="@+id/user_name_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="19dp"
+                    android:textColor="@color/black"
+                    android:text="Ankur Saxena"/>
+                <TextView
+                    android:id="@+id/user_mobile_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="31dp"
+                    android:fontFamily="@font/poppins"
+                    android:textColor="@color/grey4"
+                    android:textSize="18dp"
+                    android:text="+91- 1234 456 246"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="31dp"
+
+            android:layout_marginTop="15dp"
+            android:textSize="17dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/black"
+            android:text="Address"/>
+
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins"
+            android:text="Cecilia Chapman"
+            android:textColor="@color/grey4"
+            android:textSize="17dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:visibility="gone"
+
+            android:textSize="17dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/grey4"
+
+            android:text="711-2880 Nulla St."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+android:visibility="gone"
+            android:textSize="17dp"
+            android:fontFamily="@font/poppins"
+            android:textColor="@color/grey4"
+            android:text="Mankato Mississippi 96522"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey6"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/poppins"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text="Email"/>
+            <TextView
+                android:id="@+id/user_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                android:textSize="16dp"
+                android:textColor="@color/grey4"
+                android:fontFamily="@font/poppins"
+                android:text="ankur@equalinfotech.com"/>
+        </LinearLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1.5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/grey6"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+                android:textSize="18dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/black"
+                android:text="Gender"/>
+            <TextView
+                android:id="@+id/user_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+
+                android:layout_marginTop="0dp"
+                android:textSize="17dp"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/grey4"
+                android:text="Male"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1.5dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/grey6"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

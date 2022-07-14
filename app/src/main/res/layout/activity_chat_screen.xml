@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:weightSum="10"
+
+    tools:context=".Call.Call_Screen">
+    <LinearLayout
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_10sdp">
+
+    <ImageView
+        android:id="@+id/arrow_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="14dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/arrow_back" />
+</RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="10dp"
+
+                android:orientation="vertical">
+
+
+                <ImageView
+                     android:id="@+id/img_user"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_100sdp"
+
+
+
+                    android:src="@drawable/earning_people_rofile" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/img_user"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Jack paul"
+                        android:textColor="@color/black1"
+                        android:textSize="@dimen/_20sdp" />
+                </LinearLayout>
+
+            </LinearLayout>
+    <LinearLayout
+        android:id="@+id/rl_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp" >
+        <ImageView
+            android:layout_width="@dimen/_41sdp"
+            android:layout_height="@dimen/_41sdp"
+            android:src="@drawable/chat_profilr_img"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sumon Khan"
+                android:textColor="@color/black1"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"/>
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:30 am "
+                  android:layout_marginLeft="@dimen/_2sdp"
+                android:textColor="@color/grey4"
+                android:fontFamily="@font/poppins"
+                android:textSize="12dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+
+
+        >
+    <TextView
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:text="Hi, Where are you now ?"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:background="@drawable/bubble_box_shape"
+        android:textColor="@color/black1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seen message"
+           android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_gravity="end"
+            android:textColor="@color/grey4"
+            android:fontFamily="@font/poppins"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="@dimen/_220sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/bubble_shape_chat"
+            android:text="Hello, Park Road, London paza. I will"
+            android:textAlignment="center"
+
+            android:textColor="@color/black1"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+ <LinearLayout
+        android:id="@+id/rl_2_chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp" >
+        <ImageView
+            android:layout_width="@dimen/_41sdp"
+            android:layout_height="@dimen/_41sdp"
+            android:src="@drawable/chat_profilr_img"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sumon Khan"
+                android:textColor="@color/black1"
+                android:fontFamily="@font/poppins"
+                android:textSize="15dp"/>
+
+              <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5:30 am "
+                  android:layout_marginLeft="@dimen/_2sdp"
+                android:textColor="@color/grey4"
+                android:fontFamily="@font/poppins"
+                android:textSize="12dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+
+
+        >
+    <TextView
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:text="Hi, Where are you now ?"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_marginLeft="@dimen/_5sdp"
+        android:background="@drawable/bubble_box_shape"
+        android:textColor="@color/black1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seen message"
+           android:layout_marginHorizontal="@dimen/_5sdp"
+            android:layout_gravity="end"
+            android:textColor="@color/grey4"
+            android:fontFamily="@font/poppins"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:layout_width="@dimen/_220sdp"
+        android:layout_height="@dimen/_50sdp"
+        android:text="Hello, Park Road, London paza. I will"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textAlignment="center"
+        android:textSize="14dp"
+
+        android:background="@drawable/bubble_shape_chat"
+        android:textColor="@color/black1"/>
+
+    </RelativeLayout>
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="70dp"
+
+            android:background="@color/darkyellow"
+            >
+            <LinearLayout
+                android:layout_margin="@dimen/_3sdp"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                android:layout_centerVertical="true">
+
+            <EditText
+                android:layout_weight="2"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="@dimen/_3sdp"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:background="@drawable/rectangular"
+                android:hint="Thanks"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+
+                android:textColorHint="@color/grey6" />
+
+                <ImageView
+                   android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_20sdp"
+
+                    android:src="@drawable/send_msg_icon"/>
+
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>

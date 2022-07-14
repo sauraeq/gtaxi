@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_three"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_116sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+
+
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:elevation="2dp"
+        android:visibility="visible"
+        app:cardBackgroundColor="@color/white"
+
+        app:cardCornerRadius="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginVertical="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/_25sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:src="@drawable/icon_bank"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kotak Mahindra Bank"
+                    android:textColor="@color/black1"
+                    android:fontFamily="@font/poppins"
+                    android:layout_marginTop="5dp"
+
+
+                    android:textSize="@dimen/_13sdp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ankur Saxena"
+                    android:textColor="@color/grey6"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins"
+
+
+                    android:textSize="@dimen/_13sdp"/><TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4003830171874018"
+                    android:textColor="@color/grey6"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins"
+
+
+                    android:textSize="@dimen/_13sdp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+
+                    <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KKBK008521"
+                    android:textColor="@color/grey6"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:fontFamily="@font/poppins"
+
+
+                    android:textSize="@dimen/_13sdp"/>
+
+                        <ImageView
+                            android:id="@+id/write_edit"
+                            android:layout_width="@dimen/_18sdp"
+                            android:layout_height="@dimen/_18sdp"
+                            android:layout_alignParentEnd="true"
+
+                            android:src="@drawable/write_icon" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

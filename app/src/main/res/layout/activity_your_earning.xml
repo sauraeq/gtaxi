@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="@color/darkyellow">
+
+
+        <RelativeLayout
+            android:id="@+id/arrow_history"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow_back" />
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/History"
+            android:textColor="@color/black1"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+
+            android:id="@+id/t_today"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today"
+            android:fontFamily="@font/poppins"
+            android:textSize="16dp"
+
+            android:textColor="@color/black1"
+            />
+        <TextView
+            android:id="@+id/t_weekly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weekly"
+            android:fontFamily="@font/poppins"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:textSize="16dp"
+
+            android:textColor="@color/black1"
+            />
+
+
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <View
+            android:id="@+id/view_today"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="4dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/darkyellow"/>
+        <View
+            android:id="@+id/view_weekly"
+            android:layout_width="@dimen/_62sdp"
+            android:layout_height="4dp"
+            android:layout_marginTop="5dp"
+
+            android:background="@color/darkyellow"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+
+        android:layout_marginTop="@dimen/_10sdp"
+
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t_ride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:text="25"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/_16sdp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins"
+                android:textColor="@color/grey4"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_16sdp"
+                android:text="Total ride"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4.5"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t_hrs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:fontFamily="@font/poppins"
+                android:text="4.75"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:text="Online hrs"
+                android:textColor="@color/grey4"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/t_ammount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+                android:text="$2500"
+                android:textColor="@color/black1"
+                android:textSize="@dimen/_16sdp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/poppins"
+
+                android:text="Total earning"
+                android:textColor="@color/grey4"
+                android:textSize="@dimen/_14sdp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rl_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <RelativeLayout
+        android:id="@+id/progress_loader_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+        <include layout="@layout/loader_layout"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

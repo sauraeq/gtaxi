@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.geelong.taxi_driver">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Taxi_Driver"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".RideLtaer.RideLater"
+            android:exported="false" />
+        <activity
+            android:name=".navigation_drawer.HomeScreen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bank.Bank_detail_edit"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Payment.Payment"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Call.Chat_Screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Call.Call_Screen"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".History.Your_Earning"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Invite_a_friend.Invite_a_Friend"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Help_and_Support.Help_Support"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting.Privacy_Policy"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting.Term_and_Condition"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Setting.Setting"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Notification.Notification"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Bank.Bank_Detail"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile.Profile_Edit"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile.Profile_Overview"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login.Otp"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Login.Splash"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login.Login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAKV5mMwONFDI_qwVN_ro1zdMkH-rQYQvk" />
+
+        <service
+            android:name=".fragment.ServiceTask"
+            android:enabled="true"
+            android:exported="true" />
+        <service android:name="com.geelong.user.Util.FetchAddressServices" />
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/notificaticon" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/purple_700" />
+    </application>
+
+</manifest>

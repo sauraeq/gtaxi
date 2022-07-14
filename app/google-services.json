@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "318659486410",
+    "project_id": "geelongtaxidriver-d33b4",
+    "storage_bucket": "geelongtaxidriver-d33b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:318659486410:android:a167c98ace18c6c87c0a33",
+        "android_client_info": {
+          "package_name": "com.geelong.taxi_driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "318659486410-nsu93c53rebfpsfvl2hheogeeerqu0dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASq0M5eQW5iIIEd4OGyHEKuQdrtttpWv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "318659486410-nsu93c53rebfpsfvl2hheogeeerqu0dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

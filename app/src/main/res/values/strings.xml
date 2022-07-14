@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Taxi_Driver</string>
+    <string name="Login"><b>Login</b> with your</string>
+    <string name="below">phone number</string>
+    <string name="Verify">Verify</string>
+    <string name="p_verifaction">Phone Verification</string>
+    <string name="Verify_Now">Verify Now</string>
+
+    <string name="navigation_drawer_open">open Now</string>
+    <string name="navigation_drawer_close">close Now</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ProfileEdit">Profile Edit</string>
+    <string name="Save">Save</string>
+    <string name="setting">Setting</string>
+    <string name="bank_detail">Bank Details</string>
+    <string name="bank_holder">Account Holder Name</string>
+    <string name="bank_number">Account Number</string>
+    <string name="ifsc">Swift/IFSC</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="submit">Submit</string>
+    <string name="Message">Message</string>
+    <string name="History">Your History</string>
+
+    <string name="help">Help &amp; Support</string>
+
+
+    <string name="text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here, content here, making it look like readable English</string>
+    <string name="Add_bank">Add Account</string>
+    <string name="Add_bank_succsess">Account Add Succesfully !</string>
+    <string name="notification"> Notification</string>
+    <string name="term"> Terms  and Condition</string>
+    <string name="terms_condition"><![CDATA[Terms & Condition]]></string>
+    <string name="privacy_policy"><![CDATA[Privacy & Policy]]></string>
+    <string name="nointernet">No interner available</string>
+    <string name="Gender">Gender</string>
+
+
+    <string-array name="programming_languages">
+        <item>Male</item>
+        <item>Female</item>
+        <!--        <item>Python</item>-->
+        <!--        <item>CPP</item>-->
+    </string-array>
+
+
+</resources>

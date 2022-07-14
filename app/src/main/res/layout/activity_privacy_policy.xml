@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/relative_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+
+        android:background="@color/darkyellow">
+
+
+    <RelativeLayout
+        android:id="@+id/arrow_privacy_policy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="14dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/arrow_back" />
+    </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/privacy_policy"
+            android:textColor="@color/black1"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/t_privacy_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:textColor="@color/black3"
+            android:fontFamily="@font/poppins"
+            android:textSize="@dimen/_11sdp" />
+
+    </RelativeLayout><RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+
+        android:text="@string/text"
+        android:textColor="@color/black3"
+        android:fontFamily="@font/poppins"
+        android:textSize="@dimen/_11sdp" />
+
+</RelativeLayout><RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    android:layout_marginTop="@dimen/_5sdp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="@string/text"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black3"
+        android:textSize="@dimen/_11sdp" />
+
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/progress_loader_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:visibility="gone">
+        <include layout="@layout/loader_layout"/>
+
+    </RelativeLayout>
+</LinearLayout>

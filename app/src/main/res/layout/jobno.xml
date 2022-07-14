@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="@dimen/_10sdp"
+    app:cardCornerRadius="@dimen/_15sdp"
+    android:layout_centerVertical="true"
+    android:layout_margin="@dimen/_10sdp"
+    android:layout_height="wrap_content">
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+<!--
+            <ImageView
+                android:id="@+id/leftarrow_paynow"
+                android:layout_width="@dimen/_18sdp"
+                android:layout_height="@dimen/_18sdp"
+                android:layout_marginLeft="@dimen/_22sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:src="@drawable/fgmbckarrow"
+
+                />
+-->
+
+        </RelativeLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_marginTop="@dimen/_40sdp"
+
+            android:layout_height="@dimen/_40sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/poppinsmedium"
+                        android:text="Passenger not found"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+
+                    >
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/checkbo_a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/darkyellow">
+
+                </CheckBox>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+
+
+            android:layout_height="@dimen/_40sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="No longer required"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+
+                    >
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/checkbo_b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/darkyellow">
+
+                </CheckBox>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+
+
+            android:layout_height="@dimen/_40sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="No pre-pay"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp"
+
+                    >
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/checkbo_c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/darkyellow">
+
+                </CheckBox>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+      <!--  <View
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_marginLeft="@dimen/_14sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="#C8C3C3" />-->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+
+            android:layout_height="@dimen/_40sdp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:fontFamily="@font/poppinsmedium"
+                    android:text="Abusive"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_15sdp">
+
+                </TextView>
+
+                <CheckBox
+                    android:id="@+id/checkbo_d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:buttonTint="@color/darkyellow">
+
+                </CheckBox>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+       <!-- <View
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/_14sdp"
+            android:layout_marginRight="@dimen/_16sdp"
+            android:background="#C8C3C3" />
+-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/_18sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_18sdp"
+
+            android:padding="@dimen/_5sdp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sendradio"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+
+
+                android:layout_marginHorizontal="@dimen/_20sdp"
+                android:layout_gravity="center"
+                app:cardBackgroundColor="@color/darkyellow"
+                app:cardCornerRadius="@dimen/_56sdp">
+
+                <TextView
+                    android:id="@+id/okay_done_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_24sdp"
+
+                    android:layout_gravity="center"
+                    android:textColor="@color/black1"
+                    android:gravity="center"
+                    android:backgroundTint="@color/black2"
+                    android:fontFamily="@font/lato_regular"
+                    android:text="Send"
+                    android:textSize="@dimen/_16sdp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
